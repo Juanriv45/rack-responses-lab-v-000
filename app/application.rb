@@ -5,9 +5,9 @@ class Application
     t = Time.new
     t.localtime
     if t.hour >= 12 then
-      resp.write "#{t.hour} Good Afternoon!"
+      resp.write "#Good Afternoon!"
     else
-      resp.write "#{t.hour} Good Morning!"
+      resp.write "#Good Morning!"
     end
 
     resp.finish
